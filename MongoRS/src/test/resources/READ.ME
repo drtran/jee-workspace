@@ -1,0 +1,47 @@
+Instructions:
+
+Download latest Jersey 2.0 from:
+
+http://repo1.maven.org/maven2/org/glassfish/jersey/bundles/jaxrs-ri/2.0/jaxrs-ri-2.0.zip
+
+Create Dynamic Web Project with web.xml file. Make sure to have this content:
+  <servlet>
+    <servlet-name>simpleJerseyExample</servlet-name>
+    <servlet-class>
+      org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+    <init-param>
+      <param-name>
+        jersey.config.server.provider.packages
+      </param-name>
+        <param-value>com.bemach.restful.mongo</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>simpleJerseyExample</servlet-name>
+    <url-pattern>/services/*</url-pattern>
+  </servlet-mapping>
+  
+Copy all these files into WEB-INF/lib directory or you can also use 
+the Deployment Assembly under properties as well:
+
+    asm-all-repackaged-2.2.0-b14.jar
+    cglib-2.2.0-b14.jar
+    guava-14.0.1.jar
+    hk2-api-2.2.0-b14.jar
+    hk2-locator-2.2.0-b14.jar
+    hk2-utils-2.2.0-b14.jar
+    javax.annotation-api-1.2.jar
+    javax.inject-2.2.0-b14.jar
+    javax.ws.rs-api-2.0.jar
+    jersey-client-2.2.jar
+    jersey-common-2.2.jar
+    jersey-container-servlet-core-2.2.jar
+    jersey-server-2.2.jar
+    osgi-resource-locator-1.0.1.jar
+    validation-api-1.1.0.Final.jar
+
+
+  
+
