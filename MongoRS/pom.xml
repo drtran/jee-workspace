@@ -40,21 +40,28 @@
 			<artifactId>guice</artifactId>
 			<version>3.0</version>
 		</dependency>
-<dependency>
-  <groupId>org.mongodb</groupId>
-  <artifactId>bson</artifactId>
-  <version>2.3</version>
-</dependency>
-<dependency>
-  <groupId>org.jongo</groupId>
-  <artifactId>jongo</artifactId>
-  <version>1.1</version>
-</dependency>
-<dependency>
-  <groupId>com.google.code.gson</groupId>
-  <artifactId>gson</artifactId>
-  <version>2.3.1</version>
-</dependency>
+
+		<!-- NOTE: Do not add this due to conflict with TOMCAT Server ... <dependency> 
+			<groupId>org.mongodb</groupId> <artifactId>bson</artifactId> <version>2.3</version> 
+			</dependency> -->
+
+		<dependency>
+			<groupId>com.owlike</groupId>
+			<artifactId>genson</artifactId>
+			<version>1.2-RC1</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.jongo</groupId>
+			<artifactId>jongo</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.3.1</version>
+		</dependency>
 
 	</dependencies>
 	<build>

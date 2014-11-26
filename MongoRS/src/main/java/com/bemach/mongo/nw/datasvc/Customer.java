@@ -1,15 +1,17 @@
 package com.bemach.mongo.nw.datasvc;
 
-import java.io.IOException;
+import java.io.Serializable;
 
-import org.bson.types.ObjectId;
-import org.codehaus.jackson.JsonGenerationException;
-import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
-import org.codehaus.jackson.map.ObjectWriter;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlRootElement(name = "customer")
 
-public class Customer {
+public class Customer implements Serializable {
+	private static final long serialVersionUID = 1L;
 
 	public enum KEYS {_id, CustomerID, CompanyName, ContactName, ContactTitle, Address, 
 									  City, Region, PostalCode, Country, Phone, Fax};
@@ -30,6 +32,7 @@ public class Customer {
 		return id;
 	}
 
+	@XmlElement
 	public void setId(String id) {
 		this.id = id;
 	}
@@ -38,6 +41,7 @@ public class Customer {
 		return companyName;
 	}
 
+	@XmlElement
 	public void setCompanyName(String companyName) {
 		this.companyName = companyName;
 	}
@@ -46,6 +50,7 @@ public class Customer {
 		return contactName;
 	}
 
+	@XmlElement
 	public void setContactName(String contactName) {
 		this.contactName = contactName;
 	}
@@ -54,6 +59,7 @@ public class Customer {
 		return contactTitle;
 	}
 
+	@XmlElement
 	public void setContactTitle(String contactTitle) {
 		this.contactTitle = contactTitle;
 	}
@@ -62,6 +68,7 @@ public class Customer {
 		return address;
 	}
 
+	@XmlElement
 	public void setAddress(String address) {
 		this.address = address;
 	}
@@ -70,6 +77,7 @@ public class Customer {
 		return city;
 	}
 
+	@XmlElement
 	public void setCity(String city) {
 		this.city = city;
 	}
@@ -78,6 +86,7 @@ public class Customer {
 		return region;
 	}
 
+	@XmlElement
 	public void setRegion(String region) {
 		this.region = region;
 	}
@@ -86,6 +95,7 @@ public class Customer {
 		return postalCode;
 	}
 
+	@XmlElement
 	public void setPostalCode(String postalCode) {
 		this.postalCode = postalCode;
 	}
@@ -94,6 +104,7 @@ public class Customer {
 		return country;
 	}
 
+	@XmlElement
 	public void setCountry(String country) {
 		this.country = country;
 	}
@@ -102,6 +113,7 @@ public class Customer {
 		return phone;
 	}
 
+	@XmlElement
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
@@ -110,10 +122,12 @@ public class Customer {
 		return fax;
 	}
 
+	@XmlElement
 	public void setFax(String fax) {
 		this.fax = fax;
 	}
 
+	@XmlElement
 	public void setCustomerId(String customerId) {
 		this.customerId = customerId;
 	}
@@ -127,18 +141,4 @@ public class Customer {
 		return this.customerId;
 	}
 	
-	public String toString() {
-		
-		ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
-		try {
-			return ow.writeValueAsString(this);
-		} catch (JsonGenerationException e) {
-			System.out.println("EXCEPTION:"+e);
-		} catch (JsonMappingException e) {
-			System.out.println("EXCEPTION:"+e);		} catch (IOException e) {
-				System.out.println("EXCEPTION:"+e);		}
-		return super.toString();
-
-	}
-
 }

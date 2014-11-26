@@ -27,7 +27,7 @@ public class GettingCustomerInfoSteps {
 	@When("^I call MongoRS service with a given \"([^\"]*)\"$")
 	public void I_call_MongoRS_service_with_a_given(String customerId) throws Throwable {
 		RSClient rsClient = new RSClient();
-		rsClient.setUrl("http://localhost:18080/MongoRS/services/Customer");
+		rsClient.setUrl("http://localhost:18080/MongoRS/services/customers");
 		customer = rsClient.getCustomerById(customerId);
 	}
 
@@ -35,6 +35,10 @@ public class GettingCustomerInfoSteps {
 	public void I_should_receive_a_customer_record_with_and(String customerId, String companyName, 
 							String contactName, String contactTitle, String phone) throws Throwable {
 	   assertEquals(customerId, customer.getCustomerId());
+	   assertEquals(companyName, customer.getCompanyName());
+	   assertEquals(contactName, customer.getContactName());
+	   assertEquals(contactTitle, customer.getContactTitle());
+	   assertEquals(phone, customer.getPhone());
 	}
 
 

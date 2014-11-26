@@ -16,8 +16,8 @@ public class RSClient {
 	public Customer getCustomerById(String customerId) {
 		Client client = ClientBuilder.newClient();
 		Customer customer = client.target(targetUrl)
-											  .path("customerId")
-											  .request(MediaType.APPLICATION_JSON)
+											  .path(customerId)
+											  .request(MediaType.APPLICATION_XML)
 											  .get(new GenericType<Customer>(){});
 		return customer;
 	}

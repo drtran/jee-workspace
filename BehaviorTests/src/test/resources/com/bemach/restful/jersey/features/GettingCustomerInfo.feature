@@ -10,5 +10,6 @@ Feature: Getting Customer Information
     Then I should receive a customer record with "<customer_id>", "<company_name>", "<contact_name>", "<contact_title>", and "<phone>"
     
     Examples:
-      | customer_id | company_name       | contact_name     | contact_title | phone          |      
-      | EASTC       | Eastern Connection | Hanune Ann Devon | Sales Agent   | (171) 555-0297 |
+      | customer_id | company_name       | contact_name   | contact_title | phone          |      
+      | EASTC       | Eastern Connection | Ann Devon      | Sales Agent   | (171) 555-0297 |
+      | DUMON       | Du monde entier    | Janine Labrune | Owner         | France         |
