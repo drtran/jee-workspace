@@ -1,0 +1,43 @@
+<!doctype html>
+<html ng-app="northwind">
+
+<head>
+<title>Customer information</title>
+<script src="js/lib/angular.js"></script> 
+<script src="js/app.js"></script> 
+<script src="js/controllers.js"></script>
+<script src="js/directives.js"></script>
+<script src="js/services.js"></script>
+<link rel="stylesheet" type="text/css" href="css/app.css"> 
+</head>
+
+<body ng-controller="customerCtrl">
+	<h3 ng-bind="appTitle"></h3>
+  <div>
+	  <table>
+	    <thead>
+	    </thead>
+	    <tbody>
+	      <tr>
+	        <td><span>Customer Id</span></td>
+	        <td><input type="text" ng-model="customer.customerId"/></td>
+	      </tr>
+	      <tr>
+          <td><span>Company Name</span></td>
+          <td><input type="text" ng-model="customer.companyName"/></td>
+        </tr>
+        <tr>
+          <td><span>Contact Name</span></td>
+          <td><input type="text" ng-model="customer.contactName"/></td>
+        </tr>
+	      
+	    </tbody>
+	  </table>
+	</div>  
+	<br>
+  <span>Customer Id</span>
+	<input type="text" ng-model="customerId"/>
+
+	<button ng-click="getCustomerByCustomerId(customerId)">Retrieve</button>
+</body>
+</html>

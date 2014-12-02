@@ -1,0 +1,49 @@
+<!doctype html>
+<html ng-app="northwind">
+
+<head>
+<title>Customer information</title>
+<script src="js/lib/angular.js"></script> 
+<script src="js/app.js"></script> 
+<script src="js/controllers.js"></script>
+<script src="js/directives.js"></script>
+<link rel="stylesheet" type="text/css" href="css/app.css"> 
+</head>
+
+<body ng-controller="customerCtrl">
+	<h3 ng-bind="appTitle"></h3>
+	<div ng-show="customers.length > 0">
+		<table>
+			<thead>
+				<tr>
+					<th></th>
+					<th>Customer Id</th>
+					<th>Company Name</th>
+					<th>Contact Name</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr ng-class="{selected: customer.selected}" ng-repeat="customer in customers">
+					<td><input type="checkbox" ng-model="cutomer.selected" />
+					</td>
+					<td><span ng-bind="customer.customerId"></span></td>
+					<td><span ng-bind="customer.companyName"></span></td>
+					<td><span ng-bind="customer.contactName"></span></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div ng-hide="customers.length <= 0">No customer found!</div>
+
+	<input type="text" ng-model="car.plate" placeholder="What's the plate?" />
+
+	<select ng-model="car.color" ng-options="color for color in colors">
+		Pick a color
+	</select>
+
+	<button ng-click="park(car)" ng-disabled="!car.plate || !car.color">
+		Park</button>
+</body>
+</html>

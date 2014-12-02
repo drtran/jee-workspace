@@ -3,21 +3,29 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-    <servlet>
-    <servlet-name>simpleJerseyExample</servlet-name>
-    <servlet-class>
-      org.glassfish.jersey.servlet.ServletContainer</servlet-class>
-    <init-param>
-      <param-name>
-        jersey.config.server.provider.packages
-      </param-name>
-        <param-value>com.bemach.restful.mongo</param-value>
-    </init-param>
-    <load-on-startup>1</load-on-startup>
-  </servlet>
-  
-  <servlet-mapping>
-    <servlet-name>simpleJerseyExample</servlet-name>
-    <url-pattern>/services/*</url-pattern>
-  </servlet-mapping>
+	<servlet>
+		<servlet-name>simpleJerseyExample</servlet-name>
+		<servlet-class>
+			org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+		<init-param>
+			<param-name>
+				jersey.config.server.provider.packages
+			</param-name>
+			<param-value>com.bemach.restful.mongo</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>StartupServlet</servlet-name>
+		<display-name>MongoRS Startup Servlet</display-name>
+		<description>MongoRS Startup Servlet</description>
+		<servlet-class>com.bemach.web.StartupServlet</servlet-class>
+		<load-on-startup>3</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>simpleJerseyExample</servlet-name>
+		<url-pattern>/services/*</url-pattern>
+	</servlet-mapping>
 </web-app>

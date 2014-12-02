@@ -11,6 +11,13 @@ import cucumber.api.java.en.When;
 public class GettingCustomerInfoSteps {
 	private Customer customer;
 
+	@Given("^that I am an authorized user \"([^\"]*)\" with password \"([^\"]*)\"$")
+	public void that_I_am_an_authorized_user_with_password(String userName, String password) throws Throwable {
+		/**
+		 * Make sure I can login successful.
+		 */
+	}
+	
 	@Given("^that a customer exists with \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\", and \"([^\"]*)\"$")
 	public void that_a_customer_exists_with_and(String customerId, String companyName, 
 							String contactName, String contactTitle, String phone) throws Throwable {
