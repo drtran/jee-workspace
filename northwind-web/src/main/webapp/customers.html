@@ -21,15 +21,23 @@
 	    <tbody>
 	      <tr>
 	        <td><span>Customer Id</span></td>
-	        <td><input type="text" data-ng-model="customer.customerId"/></td>
+	        <td><span id="customerId">{{customer.customerId}}</span></td>
 	      </tr>
 	      <tr>
           <td><span>Company Name</span></td>
-          <td><input type="text" data-ng-model="customer.companyName"/></td>
+          <td><span id="companyName">{{customer.companyName}}</span></td>
         </tr>
         <tr>
           <td><span>Contact Name</span></td>
-          <td><input type="text" data-ng-model="customer.contactName"/></td>
+          <td><span id="contactName">{{customer.contactName}}</span></td>
+        </tr>
+        <tr>
+          <td><span>Contact Title</span></td>
+          <td><span id="contactTitle">{{customer.contactTitle}}</span></td>
+        </tr>
+        <tr>
+          <td><span>Phone</span></td>
+          <td><span id="phone">{{customer.phone}}</span></td>
         </tr>
 	      
 	    </tbody>
@@ -37,7 +45,7 @@
 	</div>  
 	<br>
   <span>Customer Id</span>
-	<input type="text" data-ng-model="customerId"/>
-
+	<input id="customerIdInput" type="text" data-ng-model="customerId"/>
+	<button id="retrieveButton" ng-click="getCustomerByCustomerId(customerId)">Retrieve</button>
 </body>
 </html>
