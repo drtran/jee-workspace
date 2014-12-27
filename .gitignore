@@ -37,7 +37,7 @@ Cukes/.idea/runConfigurations/Local_All.xml
 Cukes/.idea/Cukes.iml
 *.orig
 *.dll
-*.exe
+#*.exe
 packages/*
 Cukes/.idea/misc.xml
 Cukes/.idea/misc.xml
