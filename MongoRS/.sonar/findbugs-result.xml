@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.3" sequence="0" timestamp="1419685356242" analysisTimestamp="1419685427369" release="">
+  <Project>
+    <Jar>C:\csd2015\jee-workspace\MongoRS\target\classes\com\bemach\mongo\nw\datasvc\Customer$KEYS.class</Jar>
+    <Jar>C:\csd2015\jee-workspace\MongoRS\target\classes\com\bemach\mongo\nw\datasvc\Customer.class</Jar>
+    <Jar>C:\csd2015\jee-workspace\MongoRS\target\classes\com\bemach\mongo\nw\datasvc\NorthwindDataMgr$COLLECTIONS.class</Jar>
+    <Jar>C:\csd2015\jee-workspace\MongoRS\target\classes\com\bemach\mongo\nw\datasvc\NorthwindDataMgr.class</Jar>
+    <Jar>C:\csd2015\jee-workspace\MongoRS\target\classes\com\bemach\restful\mongo\Customers.class</Jar>
+    <Jar>C:\csd2015\jee-workspace\MongoRS\target\classes\com\bemach\restful\mongo\HelloWorldResource.class</Jar>
+    <Jar>C:\csd2015\jee-workspace\MongoRS\target\classes\com\bemach\web\StartupServlet.class</Jar>
+    <Jar>C:\csd2015\jee-workspace\MongoRS\target\test-classes\com\bemach\mongo\nw\datasvc\NorthwindDataMgrWithCustomersTest.class</Jar>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\test-classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\activation-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\aether-util-0.9.0.M2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\aopalliance-1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\aopalliance-repackaged-2.4.0-b06.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\asm-3.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\asm-debug-all-5.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\backport-util-concurrent-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\bson4jackson-2.4.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\classworlds-1.1-alpha-2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\commons-beanutils-1.7.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\commons-codec-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\commons-collections-3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\commons-digester-1.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\commons-httpclient-3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\commons-lang-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\commons-logging-1.0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\commons-validator-1.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\doxia-core-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\doxia-decoration-model-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\doxia-logging-api-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\doxia-module-fml-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\doxia-module-xhtml-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\doxia-sink-api-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\doxia-site-renderer-1.1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\file-management-1.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\genson-1.2-RC1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\gson-2.3.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\guava-18.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\guice-3.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\hk2-api-2.4.0-b06.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\hk2-locator-2.4.0-b06.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\hk2-utils-2.4.0-b06.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jackson-annotations-2.4.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jackson-core-2.4.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jackson-core-asl-1.9.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jackson-databind-2.4.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jackson-mapper-asl-1.9.13.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jacoco-maven-plugin-0.7.2.201409121644.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\javaee-api-7.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\javassist-3.18.2-GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\javax.annotation-api-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\javax.inject-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\javax.inject-2.4.0-b06.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\javax.mail-1.5.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\javax.ws.rs-api-2.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jax-rs-ri-2.0-m13-3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jersey-client-2.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jersey-common-2.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jersey-container-servlet-2.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jersey-container-servlet-core-2.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jersey-guava-2.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jersey-server-2.14.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\jongo-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\log4j-1.2.17.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-artifact-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-artifact-manager-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-dependency-tree-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-model-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-plugin-api-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-plugin-registry-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-profile-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-project-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-reporting-api-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-reporting-impl-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-repository-metadata-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-settings-2.2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\maven-shared-io-1.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\mockito-all-1.9.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\mongo-java-driver-2.12.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\objenesis-2.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\org.jacoco.agent-0.7.2.201409121644-runtime.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\org.jacoco.core-0.7.2.201409121644.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\org.jacoco.report-0.7.2.201409121644.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\oro-2.0.8.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\osgi-resource-locator-1.0.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\plexus-component-annotations-1.5.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\plexus-container-default-1.0-alpha-9-stable-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\plexus-i18n-1.0-beta-7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\plexus-interpolation-1.11.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\plexus-utils-1.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\plexus-velocity-1.1.7.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\powermock-api-mockito-1.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\powermock-api-support-1.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\powermock-core-1.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\powermock-reflect-1.5.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\sonar-maven-plugin-4.5.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\sonar-runner-api-2.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\validation-api-1.1.0.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\velocity-1.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\wagon-provider-api-1.0-beta-6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\xercesImpl-2.8.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\target\MongoRS\WEB-INF\lib\xml-apis-1.0.b2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\.sonar\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\csd2015\jee-workspace\MongoRS\.sonar\findbugs\jsr305.jar</AuxClasspathEntry>
+    <SrcDir>C:\csd2015\jee-workspace\MongoRS\src\main\java</SrcDir>
+    <SrcDir>C:\csd2015\jee-workspace\MongoRS\src\test\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="1">
+    <MissingClass>org.junit.Assert</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Sat, 27 Dec 2014 08:02:36 -0500" total_classes="8" referenced_classes="69" total_bugs="0" total_size="257" num_packages="3" vm_version="24.51-b03" cpu_seconds="17.53" clock_seconds="5.95" peak_mbytes="373.59" alloc_mbytes="3637.50" gc_seconds="0.11">
+    <FileStats path="com/bemach/mongo/nw/datasvc/Customer.java" bugCount="0" size="98"/>
+    <FileStats path="com/bemach/mongo/nw/datasvc/NorthwindDataMgr.java" bugCount="0" size="71"/>
+    <FileStats path="com/bemach/mongo/nw/datasvc/NorthwindDataMgrWithCustomersTest.java" bugCount="0" size="44"/>
+    <FileStats path="com/bemach/restful/mongo/Customers.java" bugCount="0" size="26"/>
+    <FileStats path="com/bemach/restful/mongo/HelloWorldResource.java" bugCount="0" size="6"/>
+    <FileStats path="com/bemach/web/StartupServlet.java" bugCount="0" size="12"/>
+    <PackageStats package="com.bemach.mongo.nw.datasvc" total_bugs="0" total_types="5" total_size="213">
+      <ClassStats class="com.bemach.mongo.nw.datasvc.Customer" sourceFile="Customer.java" interface="false" size="78" bugs="0"/>
+      <ClassStats class="com.bemach.mongo.nw.datasvc.Customer$KEYS" sourceFile="Customer.java" interface="false" size="20" bugs="0"/>
+      <ClassStats class="com.bemach.mongo.nw.datasvc.NorthwindDataMgr" sourceFile="NorthwindDataMgr.java" interface="false" size="48" bugs="0"/>
+      <ClassStats class="com.bemach.mongo.nw.datasvc.NorthwindDataMgr$COLLECTIONS" sourceFile="NorthwindDataMgr.java" interface="false" size="23" bugs="0"/>
+      <ClassStats class="com.bemach.mongo.nw.datasvc.NorthwindDataMgrWithCustomersTest" sourceFile="NorthwindDataMgrWithCustomersTest.java" interface="false" size="44" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.bemach.restful.mongo" total_bugs="0" total_types="2" total_size="32">
+      <ClassStats class="com.bemach.restful.mongo.Customers" sourceFile="Customers.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="com.bemach.restful.mongo.HelloWorldResource" sourceFile="HelloWorldResource.java" interface="false" size="6" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.bemach.web" total_bugs="0" total_types="1" total_size="12">
+      <ClassStats class="com.bemach.web.StartupServlet" sourceFile="StartupServlet.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="549" invocations="537" avgMicrosecondsPerInvocation="1022" maxMicrosecondsPerInvocation="18830" standardDeviationMircosecondsPerInvocation="1830"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="367" invocations="548" avgMicrosecondsPerInvocation="670" maxMicrosecondsPerInvocation="1893" standardDeviationMircosecondsPerInvocation="313"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="332" invocations="69" avgMicrosecondsPerInvocation="4820" maxMicrosecondsPerInvocation="38747" standardDeviationMircosecondsPerInvocation="8710"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="285" invocations="223" avgMicrosecondsPerInvocation="1279" maxMicrosecondsPerInvocation="12765" standardDeviationMircosecondsPerInvocation="1822"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="188" invocations="53" avgMicrosecondsPerInvocation="3547" maxMicrosecondsPerInvocation="92860" standardDeviationMircosecondsPerInvocation="12959"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="154" invocations="53" avgMicrosecondsPerInvocation="2913" maxMicrosecondsPerInvocation="26050" standardDeviationMircosecondsPerInvocation="6320"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="119" invocations="53" avgMicrosecondsPerInvocation="2259" maxMicrosecondsPerInvocation="19498" standardDeviationMircosecondsPerInvocation="4110"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="119" invocations="118" avgMicrosecondsPerInvocation="1010" maxMicrosecondsPerInvocation="18109" standardDeviationMircosecondsPerInvocation="2454"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="109" invocations="54" avgMicrosecondsPerInvocation="2025" maxMicrosecondsPerInvocation="18206" standardDeviationMircosecondsPerInvocation="3685"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="100" invocations="69" avgMicrosecondsPerInvocation="1461" maxMicrosecondsPerInvocation="10364" standardDeviationMircosecondsPerInvocation="2335"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="98" invocations="69" avgMicrosecondsPerInvocation="1431" maxMicrosecondsPerInvocation="16375" standardDeviationMircosecondsPerInvocation="2416"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="93" invocations="53" avgMicrosecondsPerInvocation="1762" maxMicrosecondsPerInvocation="19516" standardDeviationMircosecondsPerInvocation="3484"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="92" invocations="69" avgMicrosecondsPerInvocation="1346" maxMicrosecondsPerInvocation="15875" standardDeviationMircosecondsPerInvocation="2761"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="86" invocations="494" avgMicrosecondsPerInvocation="175" maxMicrosecondsPerInvocation="2599" standardDeviationMircosecondsPerInvocation="325"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="76" invocations="69" avgMicrosecondsPerInvocation="1112" maxMicrosecondsPerInvocation="21092" standardDeviationMircosecondsPerInvocation="2797"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.CalledMethods" totalMilliseconds="68" invocations="69" avgMicrosecondsPerInvocation="999" maxMicrosecondsPerInvocation="7370" standardDeviationMircosecondsPerInvocation="1611"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="67" invocations="53" avgMicrosecondsPerInvocation="1275" maxMicrosecondsPerInvocation="17892" standardDeviationMircosecondsPerInvocation="2825"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="63" invocations="53" avgMicrosecondsPerInvocation="1189" maxMicrosecondsPerInvocation="53165" standardDeviationMircosecondsPerInvocation="7212"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="62" invocations="28" avgMicrosecondsPerInvocation="2222" maxMicrosecondsPerInvocation="11814" standardDeviationMircosecondsPerInvocation="2994"/>
+      <ClassProfile name="com.mebigfatguy.fbcontrib.collect.CollectStatistics" totalMilliseconds="53" invocations="69" avgMicrosecondsPerInvocation="779" maxMicrosecondsPerInvocation="5895" standardDeviationMircosecondsPerInvocation="1264"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.EqualsOperandShouldHaveClassCompatibleWithThis" totalMilliseconds="53" invocations="69" avgMicrosecondsPerInvocation="769" maxMicrosecondsPerInvocation="7674" standardDeviationMircosecondsPerInvocation="1447"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ConstantDataflowFactory" totalMilliseconds="48" invocations="53" avgMicrosecondsPerInvocation="906" maxMicrosecondsPerInvocation="7421" standardDeviationMircosecondsPerInvocation="1550"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="47" invocations="69" avgMicrosecondsPerInvocation="693" maxMicrosecondsPerInvocation="5218" standardDeviationMircosecondsPerInvocation="1156"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.LiveLocalStoreDataflowFactory" totalMilliseconds="29" invocations="53" avgMicrosecondsPerInvocation="557" maxMicrosecondsPerInvocation="4920" standardDeviationMircosecondsPerInvocation="923"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="26" invocations="108" avgMicrosecondsPerInvocation="243" maxMicrosecondsPerInvocation="3774" standardDeviationMircosecondsPerInvocation="461"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="24" invocations="69" avgMicrosecondsPerInvocation="361" maxMicrosecondsPerInvocation="15312" standardDeviationMircosecondsPerInvocation="2106"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

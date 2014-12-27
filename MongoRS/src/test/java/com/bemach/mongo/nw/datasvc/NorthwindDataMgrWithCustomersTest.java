@@ -53,7 +53,7 @@ public class NorthwindDataMgrWithCustomersTest {
 	}
 	
 	@BeforeClass public static void classSetUp() throws UnknownHostException {
-		mock = "True".equals(System.getProperty("MOCK"));
+		mock = "False".equals(System.getProperty("NOMOCK"));
 		mongoClient = new MongoClient("localhost", 27017);	
 	}
 	
