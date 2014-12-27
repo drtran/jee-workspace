@@ -1,5 +1,5 @@
 northwind.controller("customerCtrl", function ($scope, northwindHttpFacade) {
-  $scope.appTitle = "Northwind Customer Information";
+  $scope.appTitle = "Northwind Restful Application";
   $scope.customer = {customerId:'abc', companyName:'company A', contactName:'Contact A'}
   $scope.customerId = "";
   
