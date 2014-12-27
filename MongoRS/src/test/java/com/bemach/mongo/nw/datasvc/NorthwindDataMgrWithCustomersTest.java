@@ -38,7 +38,7 @@ public class NorthwindDataMgrWithCustomersTest {
 	private static boolean mock;
 
 	/**
-	 * Added text.
+	 * Testing Git Plugin.
 	 * @param customerId
 	 */
 	public NorthwindDataMgrWithCustomersTest(Object customerId) {
