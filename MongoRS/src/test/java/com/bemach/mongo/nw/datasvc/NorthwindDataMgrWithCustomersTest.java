@@ -37,6 +37,10 @@ public class NorthwindDataMgrWithCustomersTest {
 	private static MongoClient mongoClient;
 	private static boolean mock;
 
+	/**
+	 * 
+	 * @param customerId
+	 */
 	public NorthwindDataMgrWithCustomersTest(Object customerId) {
 		this.customerId = (String) customerId;
 	}
