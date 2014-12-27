@@ -1,6 +1,7 @@
 package com.bemach.ui.steps;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,8 +11,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import com.bemach.restful.jersey.steps.Customer;
 import com.bemach.restful.jersey.steps.RSClient;
 
-import cucumber.api.DataTable;
-import cucumber.api.PendingException;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
