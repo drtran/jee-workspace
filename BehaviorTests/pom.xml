@@ -111,4 +111,36 @@
 		</dependency>
 
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.18</version>
+				<configuration>
+					<mainClass>com.example.Main</mainClass>
+					<arguments>
+						<argument>argument1</argument>
+					</arguments>
+					<systemProperties>
+						<property>
+							<name>URL</name>
+							<value>http://localhost:18080/northwind-web</value>
+						</property>
+
+						<property>>
+							<name>webdriver.chrome.driver</name>
+							<value>./browsers/chromedriver.exe</value>
+						</property>
+						<property>
+							<name>REST_URL</name>
+							<value>http://localhost:18080/MongoRS/services/customers</value>
+						</property>
+
+					</systemProperties>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
