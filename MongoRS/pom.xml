@@ -96,16 +96,16 @@
 			<version>7.0</version>
 		</dependency>
 
-<dependency>
-	<groupId>org.codehaus.sonar</groupId>
-	<artifactId>sonar-maven-plugin</artifactId>
-	<version>4.5.1</version>
-</dependency>
-<dependency>
-	<groupId>org.jacoco</groupId>
-	<artifactId>jacoco-maven-plugin</artifactId>
-	<version>0.7.2.201409121644</version>
-</dependency>
+		<dependency>
+			<groupId>org.codehaus.sonar</groupId>
+			<artifactId>sonar-maven-plugin</artifactId>
+			<version>4.5.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jacoco</groupId>
+			<artifactId>jacoco-maven-plugin</artifactId>
+			<version>0.7.2.201409121644</version>
+		</dependency>
 
 	</dependencies>
 
